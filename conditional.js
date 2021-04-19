@@ -5,7 +5,7 @@ if(num1>num2)
 {
     console.log(num1+" "+"is largest number" )
 }
-else if(num1==num2)
+else if(num1===num2)
 {
     console.log("Entered number is same")
 }
