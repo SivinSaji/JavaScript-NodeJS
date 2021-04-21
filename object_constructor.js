@@ -4,7 +4,6 @@ function person(Name,Age,Place){
     this.Name=Name
     this.Age=Age
     this.Place=Place
-    this.College=this.College
     this.display=function(){
         console.log("Name:"+this.Name+" Age:"+this.Age+" Place:"+this.Place+" College:"+this.College)
     }
@@ -12,10 +11,10 @@ function person(Name,Age,Place){
 
 //Here we use base model
 var sivin=new person("Sivin",20,"Kallumpuram")
-var akhil=new person("Akhil",19,"Ponnani")
+var sanu=new person("Sanu",19,"kadavallur")
 
 sivin.Age=40 //we update Age
-akhil.College="MD" //new field added
+sanu.College="BC" //new field added
 
 sivin.display()
-akhil.display()
+sanu.display()
