@@ -6,4 +6,4 @@ function hey(callback){
     callback('CrossRoads')
 }
 
-hey(hello)
+hey(hello)  
