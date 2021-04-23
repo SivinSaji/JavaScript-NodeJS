@@ -4,7 +4,7 @@ var http=require('http')                   //Here we call the librarry
 http.createServer(function(req,res){       //But this code will run when we host server(when we run code in terminal)
     res.write('Its a response from a server')   //But this function will only run when a request come to the server(ie. when a user search the web site in the browser). Here we write Crossroads it will be displaye in the browser
     res.end()                                   //It is used to understand the server the response is finished
-}).listen(5000)                                 //Here 5000 is the port number.listen(5000) This is used to search the site using localhost:5000 in the same device we host the server using the code we only get this site at that device only.
+}).listen(5000)                                   //Here 5000 is the port number.listen(5000) This is used to search the site using localhost:5000 in the same device we host the server using the code we only get this site at that device only.
 
 
 //This is same as that in the top its only differnce is here we create a fubction named server and that function is only called when user access the website. server function is a call back function
