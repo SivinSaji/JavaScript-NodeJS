@@ -1,3 +1,5 @@
+//THIS PROGRAM IS NOT COMPLETE BECAUSE (url.parse) NOT WORKING
+
 var http=require('http')
 var fs=require('fs')
 var url=require('url')
