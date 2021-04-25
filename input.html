@@ -8,35 +8,35 @@
 <table border="1">
 <tr>
 <td>
-<form style="padding:8px">
+<form style="padding:8px" action="/studentaction">
 Name:&nbsp &nbsp &nbsp &nbsp &nbsp;
-<input type="text"><br><br>
+<input type="text"  name="Name"><br><br>
 Roll No:&nbsp &nbsp &nbsp;
-<input type="text"><br><br>
+<input type="text" name="RollNo"><br><br>
 Address:&nbsp &nbsp &nbsp;
-<textarea row="10" colos="17">
+<textarea row="10" colos="17" name="Address">
 </textarea><br><br>
 Gender:&nbsp &nbsp &nbsp;
-<input type="radio" name="gender">
+<input type="radio" name="gender" value="male">
 Male:&nbsp;
-<input type="radio"  name="gender">
+<input type="radio"  name="gender" value="female">
 Female:&nbsp;<br><br>
 Qualification:&nbsp;
-<select>
+<select name="qualification">
 <option>10th</option>
-<option>Plus Two</option>
+<option>PlusTwo</option>
 <option>Degree</option>
 <option>Graduate</option>
 </select><br><br>
 Languages:&nbsp;
-<input type="checkbox">
+<input type="checkbox" name="lanuage" value="English">
 English&nbsp;
-<input type="checkbox">
+<input type="checkbox" name="lanuage" value="Hindi">
 Hindi&nbsp;
-<input type="checkbox">
+<input type="checkbox" name="lanuage" value="Malayalam">
 Malaylam<br><br>
 <center>
-<input type="button" value="submit">
+<input type="submit" value="submit">
 </center>
 </td>
 </th>
